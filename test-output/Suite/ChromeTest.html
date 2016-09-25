@@ -1,0 +1,233 @@
+<html>
+<head>
+<title>TestNG:  ChromeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ChromeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/2</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Sep 25 12:49:49 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>76 seconds (76099 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.Orange.HRMS.MainFunctions.Delta.MultipleLoginActitime()'><b>MultipleLoginActitime</b><br>Test class: com.Orange.HRMS.MainFunctions.Delta<br>Parameters: AddEmployee_VerifyPhotoUploaded, Yes<br/>
+<a href="#Output-1241968087" onClick='toggleBox("Output-1241968087", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1241968087" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1241968087">
+ description:Description   Action:  Action   ElementRepo:   ElementRepo   Input :input<br/>
+ description:Enter Username   Action:  Enter   ElementRepo:   XPATH_.//*[@name='txtUsername']   Input :Admin<br/>
+ description:Enter Password   Action:  Enter   ElementRepo:   XPATH_//*[@id='txtPassword']   Input :admin<br/>
+ description:Click on Login Button   Action:  Click   ElementRepo:   ID_btnLogin   Input :<br/>
+ description:Clcik on WelCOme Admin Button   Action:  Click   ElementRepo:   ID_welcome   Input :<br/>
+ description:Clik on PIM Tab   Action:  Click   ElementRepo:   ID_menu_pim_viewPimModule   Input :<br/>
+ description:Click On Add Employee   Action:  Click   ElementRepo:   ID_menu_pim_addEmployee   Input :<br/>
+ description:Enter firstName   Action:  Enter   ElementRepo:   XPATH_//*[@id='firstName']   Input :Swamy<br/>
+ description:Enter LastName   Action:  Enter   ElementRepo:   XPATH_//*[@id='lastName']   Input :Swamy<br/>
+ description:Verify Text Of Employee ID   Action:  Verify Text   ElementRepo:   XPATH_//*[@id='employeeId']   Input :<br/>
+ description:Upload Photo   Action:  upload   ElementRepo:   XPATH_//*[@id='photofile']   Input :C:\Documents\Small.jpg<br/>
+ description:Click On Save Button   Action:  Click   ElementRepo:   XPATH_//*[@id='btnSave']   Input :<br/>
+ description:Click on EmployeeList   Action:  Click   ElementRepo:   XPATH_//*[@id='menu_pim_viewEmployeeList']   Input :<br/>
+ description:Enter_Employee Name in Search   Action:  Click   ElementRepo:   XPATH_.//*[@id='empsearch_employee_name_empName']   Input :<br/>
+ description:Enter_Employee Name in Search   Action:  Enter   ElementRepo:   XPATH_.//*[@id='empsearch_employee_name_empName']   Input :Swamy<br/>
+ description:Clcik on Search button   Action:  Click   ElementRepo:   XPATH_.//*[@id='searchBtn']   Input :<br/>
+ description:Click on Swamy Link After Seraching   Action:  Click   ElementRepo:   XPATH_//*[contains(text(),'Swamy')]   Input :<br/>
+ description:Check Uploaded photo is exist   Action:  VerfiyElementPresent   ElementRepo:   XPATH_.//*[@id='empPic']   Input :<br/>
+ description:Verify Image Uploaded photo   Action:  verifyImage   ElementRepo:   XPATH_.//*[@id='empPic']   Input :C:\Users\pkatarias\workspace\KDFWK\OrangeHRMS\ExpectedImage\logo.png<br/>
+ description:Verify Colour of Uploaded photo   Action:  verifyElementColor   ElementRepo:   XPATH_.//*[@id='empPic']   Input :<br/>
+ description:Click on EmployeeList   Action:  Click   ElementRepo:   XPATH_//*[@id='menu_pim_viewEmployeeList']   Input :<br/>
+ description:Enter_Employee Name in Search   Action:  Click   ElementRepo:   XPATH_.//*[@id='empsearch_employee_name_empName']   Input :<br/>
+ description:Enter_Employee Name in Search   Action:  Enter   ElementRepo:   XPATH_.//*[@id='empsearch_employee_name_empName']   Input :Swamy<br/>
+ description:Clcik on Search button   Action:  Click   ElementRepo:   XPATH_.//*[@id='searchBtn']   Input :<br/>
+ description:Clcik on CheckBox   Action:  Click   ElementRepo:   XPATH_.//*[@id='ohrmList_chkSelectAll']   Input :<br/>
+ description:Clcik on Delete Button   Action:  Click   ElementRepo:   XPATH_.//*[@id='btnDelete']   Input :<br/>
+ description:Click on OK Button OF Delete Pop-up to confirm   Action:  Click   ElementRepo:   XPATh_.//*[@id='dialogDeleteBtn']   Input :<br/>
+ description:Verify Message of " Successful Delete "   Action:  Verify Text   ElementRepo:   XPATH_.//*[@class='message success fadable']   Input :Successfully Deleted    <br/>
+ description:Verify Image of " Successful Delete "   Action:  verifyImage   ElementRepo:   XPATH_.//*[@class='message success fadable']   Input :<br/>
+ description:Verify Colour of " Successful Delete "   Action:  verifyElementColor   ElementRepo:   XPATH_.//*[@class='message success fadable']   Input :<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>com.Orange.HRMS.MainFunctions.Delta@6cc4c815</td></tr>
+<tr>
+<td title='com.Orange.HRMS.MainFunctions.Delta.MultipleLoginActitime()'><b>MultipleLoginActitime</b><br>Test class: com.Orange.HRMS.MainFunctions.Delta<br>Parameters: RecuritRegistration_SearchSame , Yes<br/>
+<a href="#Output-211087289" onClick='toggleBox("Output-211087289", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-211087289" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-211087289">
+ description:Description   Action:  Action   ElementRepo:   ElementRepo   Input :input<br/>
+ description:Enter Username   Action:  Enter   ElementRepo:   XPATH_.//*[@name='txtUsername']   Input :Admin<br/>
+ description:Enter Password   Action:  Enter   ElementRepo:   XPATH_//*[@id='txtPassword']   Input :admin<br/>
+ description:Click on Login Button   Action:  Click   ElementRepo:   ID_btnLogin   Input :<br/>
+ description:Clcik on WelCOme Admin Button   Action:  Click   ElementRepo:   ID_welcome   Input :<br/>
+ description:Click on Recruitment   Action:  Click   ElementRepo:   XPATH_.//*[@id='menu_recruitment_viewRecruitmentModule']   Input :<br/>
+ description:Click On "Add" button   Action:  Click   ElementRepo:   XPATH_.//*[@id='btnAdd']   Input :<br/>
+ description:Enter Candidate FirstName   Action:  Enter   ElementRepo:   XPATH_.//*[@id='addCandidate_firstName']   Input :Shiv<br/>
+ description:Enter Candidate LastName   Action:  Enter   ElementRepo:   XPATH_.//*[@id='addCandidate_lastName']   Input :Shiv<br/>
+ description:Enter Candidate Email ID   Action:  Enter   ElementRepo:   XPATH_.//*[@id='addCandidate_email']   Input :cns.praveen@gmail.com<br/>
+ description:Click on Profile upload Browse Button   Action:  upload   ElementRepo:   XPATH_.//*[@id='addCandidate_resume']   Input :C:\Documents\upload Profile.docx<br/>
+ description:Enter Date in Date-of-Application   Action:  Enter   ElementRepo:   XPATH_.//*[@id='addCandidate_appliedDate']   Input :2016-09-16<br/>
+ description:Click on Save Button   Action:  Click   ElementRepo:   XPATH_.//*[@id='btnSave']   Input :<br/>
+ description:Click on Candidate    Action:  Click   ElementRepo:   XPATh_.//*[@id='menu_recruitment_viewCandidates']   Input :<br/>
+ description:Identify Job Title WebList & Select "All"   Action:  Select   ElementRepo:   XPATh_.//*[@id='candidateSearch_jobTitle']   Input :All<br/>
+ description:Identify Job Vacancy WebList & Select "ALL"   Action:  Select   ElementRepo:   XPATH_.//*[@id='candidateSearch_jobVacancy']   Input :All<br/>
+ description:Identify Status WebList & Select    Action:  Select   ElementRepo:   XPATH_.//*[@id='candidateSearch_status']   Input :All<br/>
+ description:Click on UserName Field   Action:  Clcik   ElementRepo:   XPATH_.//*[@id='candidateSearch_candidateName']   Input :<br/>
+ description:Enter Selected UserName   Action:  Enter   ElementRepo:   XPATH_.//*[@id='candidateSearch_candidateName']   Input :Shiv Shiv<br/>
+ description:Enter Value in From Calender   Action:  Enter   ElementRepo:   XPATH_.//*[@id='candidateSearch_fromDate']   Input :<br/>
+ description:Enter Value in To Calender   Action:  Enter   ElementRepo:   XPATH_.//*[@id='candidateSearch_toDate']   Input :2016-09-17<br/>
+ description:Click oN Search button   Action:  Click   ElementRepo:   XPATH_.//*[@id='btnSrch']   Input :<br/>
+ description:Click on CheckBox related to Candidate   Action:  Click   ElementRepo:   XPATh_.//*[@name='chkSelectAll']   Input :<br/>
+ description:Click oN Delete Button   Action:  Click   ElementRepo:   XPATH_.//*[@id='btnDelete']   Input :<br/>
+ description:Click on OK button for Delete Confirmation Pop-up   Action:  Click   ElementRepo:   XPATH_.//*[@id='dialogDeleteBtn']   Input :<br/>
+ description:Verify Message of " Successful Delete "   Action:  Verify Text   ElementRepo:   XPATH_.//*[@class='message success fadable']   Input :Successfully Deleted<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.Orange.HRMS.MainFunctions.Delta@6cc4c815</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.Orange.HRMS.MainFunctions.Delta.MultipleLoginActitime()'><b>MultipleLoginActitime</b><br>Test class: com.Orange.HRMS.MainFunctions.Delta<br>Parameters: OrangeScenarios, No</td>
+<td><div><pre>org.testng.SkipException: Skipping this scenario
+	at com.Orange.HRMS.MainFunctions.Delta.MultipleLoginActitime(Delta.java:181)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace645288381", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace645288381'><pre>org.testng.SkipException: Skipping this scenario
+	at com.Orange.HRMS.MainFunctions.Delta.MultipleLoginActitime(Delta.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.Orange.HRMS.MainFunctions.Delta@6cc4c815</td></tr>
+<tr>
+<td title='com.Orange.HRMS.MainFunctions.Delta.MultipleLoginActitime()'><b>MultipleLoginActitime</b><br>Test class: com.Orange.HRMS.MainFunctions.Delta<br>Parameters: OrangeLoginICONExist, No</td>
+<td><div><pre>org.testng.SkipException: Skipping this scenario
+	at com.Orange.HRMS.MainFunctions.Delta.MultipleLoginActitime(Delta.java:181)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace226798987", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace226798987'><pre>org.testng.SkipException: Skipping this scenario
+	at com.Orange.HRMS.MainFunctions.Delta.MultipleLoginActitime(Delta.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.Orange.HRMS.MainFunctions.Delta@6cc4c815</td></tr>
+</table><p>
+</body>
+</html>

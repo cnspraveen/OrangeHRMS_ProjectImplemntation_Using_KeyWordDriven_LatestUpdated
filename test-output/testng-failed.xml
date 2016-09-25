@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="Chrome"/>
+  <test name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.Orange.HRMS.MainFunctions.Delta">
+        <methods>
+          <include name="InitFramework"/>
+          <include name="quitApp"/>
+          <include name="MultipleLoginActitime" invocation-numbers="0 1"/>
+          <include name="AppLaunch"/>
+          <include name="endFramework"/>
+        </methods>
+      </class> <!-- com.Orange.HRMS.MainFunctions.Delta -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

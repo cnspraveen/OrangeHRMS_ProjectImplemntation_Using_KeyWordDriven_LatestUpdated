@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="4" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[http://opensource.demo.orangehrmlive.com/  :   TimeOut is  :  55]]>
+    </line>
+    <line>
+      <![CDATA[http://opensource.demo.orangehrmlive.com/  :   TimeOut is  :  55]]>
+    </line>
+    <line>
+      <![CDATA[http://opensource.demo.orangehrmlive.com/  :   TimeOut is  :  55]]>
+    </line>
+    <line>
+      <![CDATA[ description:Description   Action:  Action   ElementRepo:   ElementRepo   Input :input]]>
+    </line>
+    <line>
+      <![CDATA[ description:Enter Username   Action:  Enter   ElementRepo:   XPATH_.//*[@name='txtUsername']   Input :Admin]]>
+    </line>
+    <line>
+      <![CDATA[ description:Enter Password   Action:  Enter   ElementRepo:   XPATH_//*[@id='txtPassword']   Input :admin]]>
+    </line>
+    <line>
+      <![CDATA[ description:Click on Login Button   Action:  Click   ElementRepo:   ID_btnLogin   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Clcik on WelCOme Admin Button   Action:  Click   ElementRepo:   ID_welcome   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Clik on PIM Tab   Action:  Click   ElementRepo:   ID_menu_pim_viewPimModule   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Click On Add Employee   Action:  Click   ElementRepo:   ID_menu_pim_addEmployee   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Enter firstName   Action:  Enter   ElementRepo:   XPATH_//*[@id='firstName']   Input :Swamy]]>
+    </line>
+    <line>
+      <![CDATA[ description:Enter LastName   Action:  Enter   ElementRepo:   XPATH_//*[@id='lastName']   Input :Swamy]]>
+    </line>
+    <line>
+      <![CDATA[ description:Verify Text Of Employee ID   Action:  Verify Text   ElementRepo:   XPATH_//*[@id='employeeId']   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Upload Photo   Action:  upload   ElementRepo:   XPATH_//*[@id='photofile']   Input :C:\Documents\Small.jpg]]>
+    </line>
+    <line>
+      <![CDATA[ description:Click On Save Button   Action:  Click   ElementRepo:   XPATH_//*[@id='btnSave']   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Click on EmployeeList   Action:  Click   ElementRepo:   XPATH_//*[@id='menu_pim_viewEmployeeList']   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Enter_Employee Name in Search   Action:  Click   ElementRepo:   XPATH_.//*[@id='empsearch_employee_name_empName']   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Enter_Employee Name in Search   Action:  Enter   ElementRepo:   XPATH_.//*[@id='empsearch_employee_name_empName']   Input :Swamy]]>
+    </line>
+    <line>
+      <![CDATA[ description:Clcik on Search button   Action:  Click   ElementRepo:   XPATH_.//*[@id='searchBtn']   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Click on Swamy Link After Seraching   Action:  Click   ElementRepo:   XPATH_//*[contains(text(),'Swamy')]   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Check Uploaded photo is exist   Action:  VerfiyElementPresent   ElementRepo:   XPATH_.//*[@id='empPic']   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Verify Image Uploaded photo   Action:  verifyImage   ElementRepo:   XPATH_.//*[@id='empPic']   Input :C:\Users\pkatarias\workspace\KDFWK\OrangeHRMS\ExpectedImage\logo.png]]>
+    </line>
+    <line>
+      <![CDATA[ description:Verify Colour of Uploaded photo   Action:  verifyElementColor   ElementRepo:   XPATH_.//*[@id='empPic']   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Click on EmployeeList   Action:  Click   ElementRepo:   XPATH_//*[@id='menu_pim_viewEmployeeList']   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Enter_Employee Name in Search   Action:  Click   ElementRepo:   XPATH_.//*[@id='empsearch_employee_name_empName']   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Enter_Employee Name in Search   Action:  Enter   ElementRepo:   XPATH_.//*[@id='empsearch_employee_name_empName']   Input :Swamy]]>
+    </line>
+    <line>
+      <![CDATA[ description:Clcik on Search button   Action:  Click   ElementRepo:   XPATH_.//*[@id='searchBtn']   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Clcik on CheckBox   Action:  Click   ElementRepo:   XPATH_.//*[@id='ohrmList_chkSelectAll']   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Clcik on Delete Button   Action:  Click   ElementRepo:   XPATH_.//*[@id='btnDelete']   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Click on OK Button OF Delete Pop-up to confirm   Action:  Click   ElementRepo:   XPATh_.//*[@id='dialogDeleteBtn']   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Verify Message of " Successful Delete "   Action:  Verify Text   ElementRepo:   XPATH_.//*[@class='message success fadable']   Input :Successfully Deleted    ]]>
+    </line>
+    <line>
+      <![CDATA[ description:Verify Image of " Successful Delete "   Action:  verifyImage   ElementRepo:   XPATH_.//*[@class='message success fadable']   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Verify Colour of " Successful Delete "   Action:  verifyElementColor   ElementRepo:   XPATH_.//*[@class='message success fadable']   Input :]]>
+    </line>
+    <line>
+      <![CDATA[http://opensource.demo.orangehrmlive.com/  :   TimeOut is  :  55]]>
+    </line>
+    <line>
+      <![CDATA[ description:Description   Action:  Action   ElementRepo:   ElementRepo   Input :input]]>
+    </line>
+    <line>
+      <![CDATA[ description:Enter Username   Action:  Enter   ElementRepo:   XPATH_.//*[@name='txtUsername']   Input :Admin]]>
+    </line>
+    <line>
+      <![CDATA[ description:Enter Password   Action:  Enter   ElementRepo:   XPATH_//*[@id='txtPassword']   Input :admin]]>
+    </line>
+    <line>
+      <![CDATA[ description:Click on Login Button   Action:  Click   ElementRepo:   ID_btnLogin   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Clcik on WelCOme Admin Button   Action:  Click   ElementRepo:   ID_welcome   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Click on Recruitment   Action:  Click   ElementRepo:   XPATH_.//*[@id='menu_recruitment_viewRecruitmentModule']   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Click On "Add" button   Action:  Click   ElementRepo:   XPATH_.//*[@id='btnAdd']   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Enter Candidate FirstName   Action:  Enter   ElementRepo:   XPATH_.//*[@id='addCandidate_firstName']   Input :Shiv]]>
+    </line>
+    <line>
+      <![CDATA[ description:Enter Candidate LastName   Action:  Enter   ElementRepo:   XPATH_.//*[@id='addCandidate_lastName']   Input :Shiv]]>
+    </line>
+    <line>
+      <![CDATA[ description:Enter Candidate Email ID   Action:  Enter   ElementRepo:   XPATH_.//*[@id='addCandidate_email']   Input :cns.praveen@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[ description:Click on Profile upload Browse Button   Action:  upload   ElementRepo:   XPATH_.//*[@id='addCandidate_resume']   Input :C:\Documents\upload Profile.docx]]>
+    </line>
+    <line>
+      <![CDATA[ description:Enter Date in Date-of-Application   Action:  Enter   ElementRepo:   XPATH_.//*[@id='addCandidate_appliedDate']   Input :2016-09-16]]>
+    </line>
+    <line>
+      <![CDATA[ description:Click on Save Button   Action:  Click   ElementRepo:   XPATH_.//*[@id='btnSave']   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Click on Candidate    Action:  Click   ElementRepo:   XPATh_.//*[@id='menu_recruitment_viewCandidates']   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Identify Job Title WebList & Select "All"   Action:  Select   ElementRepo:   XPATh_.//*[@id='candidateSearch_jobTitle']   Input :All]]>
+    </line>
+    <line>
+      <![CDATA[ description:Identify Job Vacancy WebList & Select "ALL"   Action:  Select   ElementRepo:   XPATH_.//*[@id='candidateSearch_jobVacancy']   Input :All]]>
+    </line>
+    <line>
+      <![CDATA[ description:Identify Status WebList & Select    Action:  Select   ElementRepo:   XPATH_.//*[@id='candidateSearch_status']   Input :All]]>
+    </line>
+    <line>
+      <![CDATA[ description:Click on UserName Field   Action:  Clcik   ElementRepo:   XPATH_.//*[@id='candidateSearch_candidateName']   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Enter Selected UserName   Action:  Enter   ElementRepo:   XPATH_.//*[@id='candidateSearch_candidateName']   Input :Shiv Shiv]]>
+    </line>
+    <line>
+      <![CDATA[ description:Enter Value in From Calender   Action:  Enter   ElementRepo:   XPATH_.//*[@id='candidateSearch_fromDate']   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Enter Value in To Calender   Action:  Enter   ElementRepo:   XPATH_.//*[@id='candidateSearch_toDate']   Input :2016-09-17]]>
+    </line>
+    <line>
+      <![CDATA[ description:Click oN Search button   Action:  Click   ElementRepo:   XPATH_.//*[@id='btnSrch']   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Click on CheckBox related to Candidate   Action:  Click   ElementRepo:   XPATh_.//*[@name='chkSelectAll']   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Click oN Delete Button   Action:  Click   ElementRepo:   XPATH_.//*[@id='btnDelete']   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Click on OK button for Delete Confirmation Pop-up   Action:  Click   ElementRepo:   XPATH_.//*[@id='dialogDeleteBtn']   Input :]]>
+    </line>
+    <line>
+      <![CDATA[ description:Verify Message of " Successful Delete "   Action:  Verify Text   ElementRepo:   XPATH_.//*[@class='message success fadable']   Input :Successfully Deleted]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="76099" started-at="2016-09-25T07:19:49Z" finished-at="2016-09-25T07:21:05Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="76099" started-at="2016-09-25T07:19:49Z" finished-at="2016-09-25T07:21:05Z">
+      <class name="com.Orange.HRMS.MainFunctions.Delta">
+        <test-method status="PASS" signature="InitFramework()[pri:0, instance:com.Orange.HRMS.MainFunctions.Delta@6cc4c815]" name="InitFramework" is-config="true" duration-ms="133" started-at="2016-09-25T12:49:49Z" finished-at="2016-09-25T12:49:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitFramework -->
+        <test-method status="PASS" signature="AppLaunch(org.testng.xml.XmlTest)[pri:0, instance:com.Orange.HRMS.MainFunctions.Delta@6cc4c815]" name="AppLaunch" is-config="true" duration-ms="5943" started-at="2016-09-25T12:49:49Z" finished-at="2016-09-25T12:49:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "ChromeTest" verbose:1[parameters:browser=>Chrome][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=com.Orange.HRMS.MainFunctions.Delta]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[http://opensource.demo.orangehrmlive.com/  :   TimeOut is  :  55]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AppLaunch -->
+        <test-method status="SKIP" signature="MultipleLoginActitime(java.lang.String, java.lang.String)[pri:0, instance:com.Orange.HRMS.MainFunctions.Delta@6cc4c815]" name="MultipleLoginActitime" duration-ms="16" started-at="2016-09-25T12:49:55Z" data-provider="getMultipleScenarios" finished-at="2016-09-25T12:49:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OrangeScenarios]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this scenario]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this scenario
+	at com.Orange.HRMS.MainFunctions.Delta.MultipleLoginActitime(Delta.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultipleLoginActitime -->
+        <test-method status="PASS" signature="quitApp(org.testng.ITestResult)[pri:0, instance:com.Orange.HRMS.MainFunctions.Delta@6cc4c815]" name="quitApp" is-config="true" duration-ms="7290" started-at="2016-09-25T12:49:55Z" finished-at="2016-09-25T12:50:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MultipleLoginActitime status=SKIP method=Delta.MultipleLoginActitime(java.lang.String, java.lang.String)[pri:0, instance:com.Orange.HRMS.MainFunctions.Delta@6cc4c815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitApp -->
+        <test-method status="PASS" signature="AppLaunch(org.testng.xml.XmlTest)[pri:0, instance:com.Orange.HRMS.MainFunctions.Delta@6cc4c815]" name="AppLaunch" is-config="true" duration-ms="5293" started-at="2016-09-25T12:50:03Z" finished-at="2016-09-25T12:50:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "ChromeTest" verbose:1[parameters:browser=>Chrome][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=com.Orange.HRMS.MainFunctions.Delta]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[http://opensource.demo.orangehrmlive.com/  :   TimeOut is  :  55]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AppLaunch -->
+        <test-method status="SKIP" signature="MultipleLoginActitime(java.lang.String, java.lang.String)[pri:0, instance:com.Orange.HRMS.MainFunctions.Delta@6cc4c815]" name="MultipleLoginActitime" duration-ms="2" started-at="2016-09-25T12:50:08Z" data-provider="getMultipleScenarios" finished-at="2016-09-25T12:50:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OrangeLoginICONExist]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this scenario]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this scenario
+	at com.Orange.HRMS.MainFunctions.Delta.MultipleLoginActitime(Delta.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultipleLoginActitime -->
+        <test-method status="PASS" signature="quitApp(org.testng.ITestResult)[pri:0, instance:com.Orange.HRMS.MainFunctions.Delta@6cc4c815]" name="quitApp" is-config="true" duration-ms="5158" started-at="2016-09-25T12:50:08Z" finished-at="2016-09-25T12:50:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MultipleLoginActitime status=SKIP method=Delta.MultipleLoginActitime(java.lang.String, java.lang.String)[pri:0, instance:com.Orange.HRMS.MainFunctions.Delta@6cc4c815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitApp -->
+        <test-method status="PASS" signature="AppLaunch(org.testng.xml.XmlTest)[pri:0, instance:com.Orange.HRMS.MainFunctions.Delta@6cc4c815]" name="AppLaunch" is-config="true" duration-ms="5310" started-at="2016-09-25T12:50:13Z" finished-at="2016-09-25T12:50:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "ChromeTest" verbose:1[parameters:browser=>Chrome][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=com.Orange.HRMS.MainFunctions.Delta]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[http://opensource.demo.orangehrmlive.com/  :   TimeOut is  :  55]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AppLaunch -->
+        <test-method status="PASS" signature="MultipleLoginActitime(java.lang.String, java.lang.String)[pri:0, instance:com.Orange.HRMS.MainFunctions.Delta@6cc4c815]" name="MultipleLoginActitime" duration-ms="17682" started-at="2016-09-25T12:50:18Z" data-provider="getMultipleScenarios" finished-at="2016-09-25T12:50:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AddEmployee_VerifyPhotoUploaded]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ description:Description   Action:  Action   ElementRepo:   ElementRepo   Input :input]]>
+            </line>
+            <line>
+              <![CDATA[ description:Enter Username   Action:  Enter   ElementRepo:   XPATH_.//*[@name='txtUsername']   Input :Admin]]>
+            </line>
+            <line>
+              <![CDATA[ description:Enter Password   Action:  Enter   ElementRepo:   XPATH_//*[@id='txtPassword']   Input :admin]]>
+            </line>
+            <line>
+              <![CDATA[ description:Click on Login Button   Action:  Click   ElementRepo:   ID_btnLogin   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Clcik on WelCOme Admin Button   Action:  Click   ElementRepo:   ID_welcome   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Clik on PIM Tab   Action:  Click   ElementRepo:   ID_menu_pim_viewPimModule   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Click On Add Employee   Action:  Click   ElementRepo:   ID_menu_pim_addEmployee   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Enter firstName   Action:  Enter   ElementRepo:   XPATH_//*[@id='firstName']   Input :Swamy]]>
+            </line>
+            <line>
+              <![CDATA[ description:Enter LastName   Action:  Enter   ElementRepo:   XPATH_//*[@id='lastName']   Input :Swamy]]>
+            </line>
+            <line>
+              <![CDATA[ description:Verify Text Of Employee ID   Action:  Verify Text   ElementRepo:   XPATH_//*[@id='employeeId']   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Upload Photo   Action:  upload   ElementRepo:   XPATH_//*[@id='photofile']   Input :C:\Documents\Small.jpg]]>
+            </line>
+            <line>
+              <![CDATA[ description:Click On Save Button   Action:  Click   ElementRepo:   XPATH_//*[@id='btnSave']   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Click on EmployeeList   Action:  Click   ElementRepo:   XPATH_//*[@id='menu_pim_viewEmployeeList']   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Enter_Employee Name in Search   Action:  Click   ElementRepo:   XPATH_.//*[@id='empsearch_employee_name_empName']   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Enter_Employee Name in Search   Action:  Enter   ElementRepo:   XPATH_.//*[@id='empsearch_employee_name_empName']   Input :Swamy]]>
+            </line>
+            <line>
+              <![CDATA[ description:Clcik on Search button   Action:  Click   ElementRepo:   XPATH_.//*[@id='searchBtn']   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Click on Swamy Link After Seraching   Action:  Click   ElementRepo:   XPATH_//*[contains(text(),'Swamy')]   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Check Uploaded photo is exist   Action:  VerfiyElementPresent   ElementRepo:   XPATH_.//*[@id='empPic']   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Verify Image Uploaded photo   Action:  verifyImage   ElementRepo:   XPATH_.//*[@id='empPic']   Input :C:\Users\pkatarias\workspace\KDFWK\OrangeHRMS\ExpectedImage\logo.png]]>
+            </line>
+            <line>
+              <![CDATA[ description:Verify Colour of Uploaded photo   Action:  verifyElementColor   ElementRepo:   XPATH_.//*[@id='empPic']   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Click on EmployeeList   Action:  Click   ElementRepo:   XPATH_//*[@id='menu_pim_viewEmployeeList']   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Enter_Employee Name in Search   Action:  Click   ElementRepo:   XPATH_.//*[@id='empsearch_employee_name_empName']   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Enter_Employee Name in Search   Action:  Enter   ElementRepo:   XPATH_.//*[@id='empsearch_employee_name_empName']   Input :Swamy]]>
+            </line>
+            <line>
+              <![CDATA[ description:Clcik on Search button   Action:  Click   ElementRepo:   XPATH_.//*[@id='searchBtn']   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Clcik on CheckBox   Action:  Click   ElementRepo:   XPATH_.//*[@id='ohrmList_chkSelectAll']   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Clcik on Delete Button   Action:  Click   ElementRepo:   XPATH_.//*[@id='btnDelete']   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Click on OK Button OF Delete Pop-up to confirm   Action:  Click   ElementRepo:   XPATh_.//*[@id='dialogDeleteBtn']   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Verify Message of " Successful Delete "   Action:  Verify Text   ElementRepo:   XPATH_.//*[@class='message success fadable']   Input :Successfully Deleted    ]]>
+            </line>
+            <line>
+              <![CDATA[ description:Verify Image of " Successful Delete "   Action:  verifyImage   ElementRepo:   XPATH_.//*[@class='message success fadable']   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Verify Colour of " Successful Delete "   Action:  verifyElementColor   ElementRepo:   XPATH_.//*[@class='message success fadable']   Input :]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MultipleLoginActitime -->
+        <test-method status="PASS" signature="quitApp(org.testng.ITestResult)[pri:0, instance:com.Orange.HRMS.MainFunctions.Delta@6cc4c815]" name="quitApp" is-config="true" duration-ms="5180" started-at="2016-09-25T12:50:36Z" finished-at="2016-09-25T12:50:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MultipleLoginActitime status=SUCCESS method=Delta.MultipleLoginActitime(java.lang.String, java.lang.String)[pri:0, instance:com.Orange.HRMS.MainFunctions.Delta@6cc4c815] output= description:Description   Action:  Action   ElementRepo:   ElementRepo   Input :input]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitApp -->
+        <test-method status="PASS" signature="AppLaunch(org.testng.xml.XmlTest)[pri:0, instance:com.Orange.HRMS.MainFunctions.Delta@6cc4c815]" name="AppLaunch" is-config="true" duration-ms="5495" started-at="2016-09-25T12:50:41Z" finished-at="2016-09-25T12:50:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "ChromeTest" verbose:1[parameters:browser=>Chrome][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=com.Orange.HRMS.MainFunctions.Delta]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[http://opensource.demo.orangehrmlive.com/  :   TimeOut is  :  55]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AppLaunch -->
+        <test-method status="PASS" signature="MultipleLoginActitime(java.lang.String, java.lang.String)[pri:0, instance:com.Orange.HRMS.MainFunctions.Delta@6cc4c815]" name="MultipleLoginActitime" duration-ms="12451" started-at="2016-09-25T12:50:47Z" data-provider="getMultipleScenarios" finished-at="2016-09-25T12:50:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RecuritRegistration_SearchSame ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ description:Description   Action:  Action   ElementRepo:   ElementRepo   Input :input]]>
+            </line>
+            <line>
+              <![CDATA[ description:Enter Username   Action:  Enter   ElementRepo:   XPATH_.//*[@name='txtUsername']   Input :Admin]]>
+            </line>
+            <line>
+              <![CDATA[ description:Enter Password   Action:  Enter   ElementRepo:   XPATH_//*[@id='txtPassword']   Input :admin]]>
+            </line>
+            <line>
+              <![CDATA[ description:Click on Login Button   Action:  Click   ElementRepo:   ID_btnLogin   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Clcik on WelCOme Admin Button   Action:  Click   ElementRepo:   ID_welcome   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Click on Recruitment   Action:  Click   ElementRepo:   XPATH_.//*[@id='menu_recruitment_viewRecruitmentModule']   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Click On "Add" button   Action:  Click   ElementRepo:   XPATH_.//*[@id='btnAdd']   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Enter Candidate FirstName   Action:  Enter   ElementRepo:   XPATH_.//*[@id='addCandidate_firstName']   Input :Shiv]]>
+            </line>
+            <line>
+              <![CDATA[ description:Enter Candidate LastName   Action:  Enter   ElementRepo:   XPATH_.//*[@id='addCandidate_lastName']   Input :Shiv]]>
+            </line>
+            <line>
+              <![CDATA[ description:Enter Candidate Email ID   Action:  Enter   ElementRepo:   XPATH_.//*[@id='addCandidate_email']   Input :cns.praveen@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[ description:Click on Profile upload Browse Button   Action:  upload   ElementRepo:   XPATH_.//*[@id='addCandidate_resume']   Input :C:\Documents\upload Profile.docx]]>
+            </line>
+            <line>
+              <![CDATA[ description:Enter Date in Date-of-Application   Action:  Enter   ElementRepo:   XPATH_.//*[@id='addCandidate_appliedDate']   Input :2016-09-16]]>
+            </line>
+            <line>
+              <![CDATA[ description:Click on Save Button   Action:  Click   ElementRepo:   XPATH_.//*[@id='btnSave']   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Click on Candidate    Action:  Click   ElementRepo:   XPATh_.//*[@id='menu_recruitment_viewCandidates']   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Identify Job Title WebList & Select "All"   Action:  Select   ElementRepo:   XPATh_.//*[@id='candidateSearch_jobTitle']   Input :All]]>
+            </line>
+            <line>
+              <![CDATA[ description:Identify Job Vacancy WebList & Select "ALL"   Action:  Select   ElementRepo:   XPATH_.//*[@id='candidateSearch_jobVacancy']   Input :All]]>
+            </line>
+            <line>
+              <![CDATA[ description:Identify Status WebList & Select    Action:  Select   ElementRepo:   XPATH_.//*[@id='candidateSearch_status']   Input :All]]>
+            </line>
+            <line>
+              <![CDATA[ description:Click on UserName Field   Action:  Clcik   ElementRepo:   XPATH_.//*[@id='candidateSearch_candidateName']   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Enter Selected UserName   Action:  Enter   ElementRepo:   XPATH_.//*[@id='candidateSearch_candidateName']   Input :Shiv Shiv]]>
+            </line>
+            <line>
+              <![CDATA[ description:Enter Value in From Calender   Action:  Enter   ElementRepo:   XPATH_.//*[@id='candidateSearch_fromDate']   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Enter Value in To Calender   Action:  Enter   ElementRepo:   XPATH_.//*[@id='candidateSearch_toDate']   Input :2016-09-17]]>
+            </line>
+            <line>
+              <![CDATA[ description:Click oN Search button   Action:  Click   ElementRepo:   XPATH_.//*[@id='btnSrch']   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Click on CheckBox related to Candidate   Action:  Click   ElementRepo:   XPATh_.//*[@name='chkSelectAll']   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Click oN Delete Button   Action:  Click   ElementRepo:   XPATH_.//*[@id='btnDelete']   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Click on OK button for Delete Confirmation Pop-up   Action:  Click   ElementRepo:   XPATH_.//*[@id='dialogDeleteBtn']   Input :]]>
+            </line>
+            <line>
+              <![CDATA[ description:Verify Message of " Successful Delete "   Action:  Verify Text   ElementRepo:   XPATH_.//*[@class='message success fadable']   Input :Successfully Deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MultipleLoginActitime -->
+        <test-method status="PASS" signature="quitApp(org.testng.ITestResult)[pri:0, instance:com.Orange.HRMS.MainFunctions.Delta@6cc4c815]" name="quitApp" is-config="true" duration-ms="5162" started-at="2016-09-25T12:50:59Z" finished-at="2016-09-25T12:51:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MultipleLoginActitime status=SUCCESS method=Delta.MultipleLoginActitime(java.lang.String, java.lang.String)[pri:0, instance:com.Orange.HRMS.MainFunctions.Delta@6cc4c815] output= description:Description   Action:  Action   ElementRepo:   ElementRepo   Input :input]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitApp -->
+        <test-method status="PASS" signature="endFramework()[pri:0, instance:com.Orange.HRMS.MainFunctions.Delta@6cc4c815]" name="endFramework" is-config="true" duration-ms="372" started-at="2016-09-25T12:51:04Z" finished-at="2016-09-25T12:51:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endFramework -->
+      </class> <!-- com.Orange.HRMS.MainFunctions.Delta -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
